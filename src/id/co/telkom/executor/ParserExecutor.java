@@ -50,7 +50,6 @@ public class ParserExecutor {
 	private static final Logger logger = Logger.getLogger(ParserExecutor.class);
 	private final Properties l4jPr = new Properties();
 	private static final long start = System.currentTimeMillis();
-//	private Object tempGlobbalBuffer;
 	
 	public static void main(String[] args) {
 		
