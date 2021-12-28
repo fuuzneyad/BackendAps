@@ -1,0 +1,7 @@
+#pdc_kpi.pl
+#df -k
+#ls -ltr /charging/chsLog/tmp
+#ls -ltr /charging/chsLog/ready/archieve
+rnc_status
+#gbip_status -l
+gbfr_status -l

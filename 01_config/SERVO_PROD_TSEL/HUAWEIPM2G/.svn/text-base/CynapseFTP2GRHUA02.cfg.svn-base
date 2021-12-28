@@ -1,0 +1,57 @@
+###########################################################
+#Praxis Cynapse Configuration
+#v1.0
+#Copyright 2012 @SMLTechnologies
+###########################################################
+PARSER_CONFIG           	=../01_config/ParserConfig.xml
+
+
+#1
+MODUL_NAME_1			=2GRHUA02
+#---Get Part---
+GET_FTP_1			=Y
+FTP_HOST_1			=10.2.160.155
+FTP_PORT_1			=21
+FTP_USERNAME_1			=ftpuser
+FTP_PASSWD_1			=ftpuser
+FTP_FILEPATTERN_1		=A(.*)($NE).xml.gz
+FTP_DATEPATTERN_1		=(.*)
+FTP_REMOTE_DIR_1		=/export/home/omc/var/fileint/pmneexport/BSC6900GSM/neexport_
+FTP_SUBREMOTE_DIR_1		=
+FTP_LOCAL_DIR_1			=../02_raw/2GRHUA02
+FTP_CHECK_ALREADY_DWL_1		=Y
+OUTPUT_CONFIG_1			=../01_config/OutputMethod2.cfg
+
+
+#1
+MODUL_NAME_2                    =2GRHUA02
+#---Get Part---
+GET_FTP_2                       =Y
+FTP_HOST_2                      =10.2.160.182
+FTP_PORT_2                      =21
+FTP_USERNAME_2                  =ftpuser
+FTP_PASSWD_2                    =Changeme_123
+FTP_FILEPATTERN_2               =A(.*)($NE).xml(.*)
+FTP_DATEPATTERN_2               =(.*)
+FTP_REMOTE_DIR_2                =/export/home/omc/var/fileint/pmneexport/neexport_
+FTP_SUBREMOTE_DIR_2             =(.*)MBSC(.*)
+FTP_LOCAL_DIR_2                 =../02_raw/2GRHUA02
+FTP_CHECK_ALREADY_DWL_2         =Y
+OUTPUT_CONFIG_2                 =../01_config/OutputMethod2.cfg
+
+#1
+MODUL_NAME_3                    =2GRHUA02
+#---Get Part---
+GET_FTP_3                       =Y
+FTP_HOST_3                      =10.2.160.113
+FTP_PORT_3                      =21
+FTP_USERNAME_3                  =ftpuser
+FTP_PASSWD_3                    =Changeme_123
+FTP_FILEPATTERN_3               =A(.*)($NE).xml(.*)
+FTP_DATEPATTERN_3               =(.*)
+FTP_REMOTE_DIR_3                =/export/home/omc/var/fileint/pmneexport/neexport_
+FTP_SUBREMOTE_DIR_3             =
+FTP_LOCAL_DIR_3                 =../02_raw/2GRHUA02
+FTP_CHECK_ALREADY_DWL_3         =Y
+OUTPUT_CONFIG_3                 =../01_config/OutputMethod2.cfg
+

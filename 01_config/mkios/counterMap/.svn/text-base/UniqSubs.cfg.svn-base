@@ -1,0 +1,5 @@
+#[x][y][width][depth][tableName][fields]
+##28 Jan
+#[2][3][7][11][UNIQ][TANGAL|yyyy-MM-dd,REGION,SIMP_SUCCESS,SIMP_FAIL,AS_SUCCESS,AS_FAIL]
+##27 Jan
+[2][18][7][11][UNIQ][TANGAL|yyyy-MM-dd,REGION,SIMP_SUCCESS,SIMP_FAIL,AS_SUCCESS,AS_FAIL]

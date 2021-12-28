@@ -1,0 +1,849 @@
+18:02:18,554 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:02:18 WIB 2018]; root of context hierarchy
+18:02:18,648 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,665 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:18,767 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfig.xml]
+18:02:18,772 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:02:18,988 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:02:18,994 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:02:18,997 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:02:19,139 DEBUG Loading bean definitions
+18:02:19,185 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfig.xml]
+18:02:19,185 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:02:19,185 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:02:18 WIB 2018]; root of context hierarchy
+18:02:19,215 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:02:19,226 DEBUG Creating instance of bean 'propertyConfigurer'
+18:02:19,283 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:02:19,303 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:02:19,308 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:02:19,324 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:02:19,328 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:02:19,332 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:02:19,333 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:02:19,334 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:02:19,334 DEBUG Creating instance of bean 'dataSource'
+18:02:20,000 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:02:20,034 DEBUG Finished creating instance of bean 'dataSource'
+18:02:20,129 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:02:53,130 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:02:53 WIB 2018]; root of context hierarchy
+18:02:53,161 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,161 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,161 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,162 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,162 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,162 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,162 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,165 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,165 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:02:53,188 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfig.xml]
+18:02:53,192 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:02:53,216 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:02:53,218 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:02:53,220 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:02:53,272 DEBUG Loading bean definitions
+18:02:53,292 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfig.xml]
+18:02:53,292 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:02:53,292 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:02:53 WIB 2018]; root of context hierarchy
+18:02:53,301 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:02:53,306 DEBUG Creating instance of bean 'propertyConfigurer'
+18:02:53,321 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:02:53,332 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:02:53,333 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:02:53,339 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:02:53,341 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:02:53,342 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:02:53,342 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:02:53,342 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:02:53,342 DEBUG Creating instance of bean 'dataSource'
+18:02:53,502 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:02:53,522 DEBUG Finished creating instance of bean 'dataSource'
+18:02:53,554 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:04:59,574 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:04:59 WIB 2018]; root of context hierarchy
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,662 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,663 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,674 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,677 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:04:59,761 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfig.xml]
+18:04:59,766 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:04:59,796 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:04:59,800 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:04:59,802 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:04:59,865 DEBUG Loading bean definitions
+18:04:59,912 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfig.xml]
+18:04:59,912 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:04:59,912 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:04:59 WIB 2018]; root of context hierarchy
+18:04:59,935 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:04:59,941 DEBUG Creating instance of bean 'propertyConfigurer'
+18:04:59,988 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:05:00,011 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:05:00,013 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:05:00,023 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:05:00,027 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:05:00,028 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:05:00,028 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:05:00,028 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:05:00,028 DEBUG Creating instance of bean 'dataSource'
+18:05:00,290 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:05:00,313 DEBUG Finished creating instance of bean 'dataSource'
+18:05:00,350 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:07:02,682 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:07:02 WIB 2018]; root of context hierarchy
+18:07:02,722 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,723 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,723 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,723 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,723 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,723 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,724 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,728 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,729 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:07:02,749 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfig.xml]
+18:07:02,752 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:07:02,774 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:07:02,775 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:07:02,777 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:07:02,824 DEBUG Loading bean definitions
+18:07:02,843 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfig.xml]
+18:07:02,843 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:07:02,843 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:07:02 WIB 2018]; root of context hierarchy
+18:07:02,851 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:07:02,855 DEBUG Creating instance of bean 'propertyConfigurer'
+18:07:02,869 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:07:02,881 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:07:02,883 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:07:02,889 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:07:02,890 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:07:02,891 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:07:02,891 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:07:02,891 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:07:02,891 DEBUG Creating instance of bean 'dataSource'
+18:07:03,048 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:07:03,067 DEBUG Finished creating instance of bean 'dataSource'
+18:07:03,104 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:08:03,524 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:08:03 WIB 2018]; root of context hierarchy
+18:08:03,621 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,622 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,622 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,622 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,622 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,623 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,623 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,638 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,641 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:08:03,719 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfig.xml]
+18:08:03,723 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:08:03,747 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:08:03,751 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:08:03,753 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:08:03,815 DEBUG Loading bean definitions
+18:08:03,851 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfig.xml]
+18:08:03,851 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:08:03,851 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:08:03 WIB 2018]; root of context hierarchy
+18:08:03,875 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:08:03,883 DEBUG Creating instance of bean 'propertyConfigurer'
+18:08:03,932 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:08:03,951 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:08:03,952 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:08:03,961 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:08:03,965 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:08:03,966 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:08:03,966 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:08:03,966 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:08:03,966 DEBUG Creating instance of bean 'dataSource'
+18:08:04,217 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:08:04,243 DEBUG Finished creating instance of bean 'dataSource'
+18:08:04,290 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:08:11,333 INFO  Thread counter : 1
+18:08:11,338 INFO  Processing 1 file(s) 10001.xls
+18:08:11,338 INFO  found measurement mapping for 10001.xls NEW_MTTR
+18:08:12,913 INFO  Loading data to table NEW_MTTR size:1000
+18:08:12,913 DEBUG JdbcInsert not compiled before execution - invoking compile
+18:08:12,943 DEBUG Fetching JDBC Connection from DataSource
+18:08:18,060 ERROR org.springframework.dao.DataAccessResourceFailureException: Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (ORA-00923: FROM keyword not found where expected
+)
+18:08:18,062 INFO  Thread counter : 0
+18:08:18,063 INFO  Loading buffer....
+18:08:18,063 INFO  1 files has been processed!!
+18:08:18,063 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 15 Seconds
+18:10:50,035 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:10:50 WIB 2018]; root of context hierarchy
+18:10:50,118 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,119 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,132 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,135 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:10:50,222 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:10:50,227 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:10:50,253 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:10:50,257 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:10:50,259 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:10:50,315 DEBUG Loading bean definitions
+18:10:50,346 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:10:50,346 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:10:50,347 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:10:50 WIB 2018]; root of context hierarchy
+18:10:50,374 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:10:50,384 DEBUG Creating instance of bean 'propertyConfigurer'
+18:10:50,439 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:10:50,462 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:10:50,464 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:10:50,473 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:10:50,477 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:10:50,478 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:10:50,478 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:10:50,479 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:10:50,479 DEBUG Creating instance of bean 'dataSource'
+18:10:50,746 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:10:50,770 DEBUG Finished creating instance of bean 'dataSource'
+18:10:50,811 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:11:02,366 INFO  Thread counter : 1
+18:11:02,370 INFO  Processing 1 file(s) 10001.xls
+18:11:02,371 INFO  found measurement mapping for 10001.xls NEW_MTTR
+18:11:03,687 INFO  Loading data to table NEW_MTTR size:1000
+18:11:03,687 DEBUG JdbcInsert not compiled before execution - invoking compile
+18:11:03,719 DEBUG Fetching JDBC Connection from DataSource
+18:11:08,818 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+18:11:08,818 DEBUG GetGeneratedKeys is supported
+18:11:08,818 DEBUG GeneratedKeysColumnNameArray is supported for Oracle
+18:11:08,939 DEBUG Retrieving metadata for null/OGDDWS/NEW_MTTR
+18:11:09,022 DEBUG Retrieved metadata: INCIDENT 12 true
+18:11:09,029 DEBUG Retrieved metadata: CUSTOMER_NAME 12 true
+18:11:09,036 DEBUG Retrieved metadata: SUMMARY 12 true
+18:11:09,043 DEBUG Retrieved metadata: OWNER_GROUP 12 true
+18:11:09,050 DEBUG Retrieved metadata: OWNER 12 true
+18:11:09,058 DEBUG Retrieved metadata: LAST_UPDATED_WORK_LOG 12 true
+18:11:09,067 DEBUG Retrieved metadata: LAST_WORK_LOG_DATE 93 true
+18:11:09,074 DEBUG Retrieved metadata: SOURCE 12 true
+18:11:09,081 DEBUG Retrieved metadata: SEGMENT 12 true
+18:11:09,088 DEBUG Retrieved metadata: CHANNEL 3 true
+18:11:09,095 DEBUG Retrieved metadata: CUSTOMER_SEGMEN 12 true
+18:11:09,104 DEBUG Retrieved metadata: SERVICE_ID 12 true
+18:11:09,111 DEBUG Retrieved metadata: SERVICE_NO 12 true
+18:11:09,118 DEBUG Retrieved metadata: SERVICE_TYPE 12 true
+18:11:09,125 DEBUG Retrieved metadata: TOP_PRIORITY 12 true
+18:11:09,132 DEBUG Retrieved metadata: SLG 12 true
+18:11:09,139 DEBUG Retrieved metadata: TECHNOLOGY 12 true
+18:11:09,146 DEBUG Retrieved metadata: DATEK 12 true
+18:11:09,153 DEBUG Retrieved metadata: RK_NAME 12 true
+18:11:09,160 DEBUG Retrieved metadata: INDUK_GAMAS 12 true
+18:11:09,167 DEBUG Retrieved metadata: REPORTED_DATE 93 true
+18:11:09,174 DEBUG Retrieved metadata: TTR_CUSTOMER 3 true
+18:11:09,182 DEBUG Retrieved metadata: TTR_NASIONAL 3 true
+18:11:09,188 DEBUG Retrieved metadata: TTR_REGIONAL 3 true
+18:11:09,195 DEBUG Retrieved metadata: TTR_WITEL 3 true
+18:11:09,202 DEBUG Retrieved metadata: TTR_MITRA 3 true
+18:11:09,209 DEBUG Retrieved metadata: TTR_AGENT 3 true
+18:11:09,216 DEBUG Retrieved metadata: STATUS 12 true
+18:11:09,223 DEBUG Retrieved metadata: OSM_RESOLVED_CODE 12 true
+18:11:09,230 DEBUG Retrieved metadata: LAST_UPDATE_TICKET 93 true
+18:11:09,238 DEBUG Retrieved metadata: STATUS_DATE 93 true
+18:11:09,244 DEBUG Retrieved metadata: CLOSED_REOPEN_BY 12 true
+18:11:09,251 DEBUG Retrieved metadata: RESOLVED_BY 12 true
+18:11:09,258 DEBUG Retrieved metadata: WORKZONE 12 true
+18:11:09,267 DEBUG Retrieved metadata: WITEL 12 true
+18:11:09,273 DEBUG Retrieved metadata: REGIONAL 12 true
+18:11:09,281 DEBUG Retrieved metadata: INCIDENTS_SYMTOM 12 true
+18:11:09,287 DEBUG Retrieved metadata: SOLUTION_SEGMENT 12 true
+18:11:09,294 DEBUG Retrieved metadata: ACTUAL_SOLUTION 12 true
+18:11:09,301 DEBUG Retrieved metadata: TYPE_GANGGUAN 12 true
+18:11:09,308 DEBUG Retrieved metadata: PRODUK_TYPE 12 true
+18:11:09,314 DEBUG Retrieved metadata: JUMLAH_LINK 3 true
+18:11:09,321 DEBUG Retrieved metadata: GAMAS_GAUL 12 true
+18:11:09,328 DEBUG Retrieved metadata: TARGET_SLG_JAM 3 true
+18:11:09,335 DEBUG Retrieved metadata: POTENSI_REBATE_SLG 12 true
+18:11:09,342 DEBUG Retrieved metadata: SLG_COMPLIANCE 12 true
+18:11:09,349 DEBUG Retrieved metadata: KM_DWS_2017_COMPLIANCE 12 true
+18:11:09,356 DEBUG Retrieved metadata: MTTR_OCC_AGENT_COMPLIANCE 12 true
+18:11:09,363 DEBUG Retrieved metadata: USIA_TICKET 3 true
+18:11:09,370 DEBUG Retrieved metadata: REG_TSEL 12 true
+18:11:09,378 DEBUG Retrieved metadata: AREA_TSEL 12 true
+18:11:09,384 DEBUG Retrieved metadata: GM_WS 12 true
+18:11:09,391 DEBUG Retrieved metadata: MGR_WS 12 true
+18:11:09,397 DEBUG Retrieved metadata: WITEL_OCC 12 true
+18:11:09,407 DEBUG Retrieved metadata: TREG_OCC 12 true
+18:11:09,414 DEBUG Retrieved metadata: WITEL_CEK 12 true
+18:11:09,421 DEBUG Retrieved metadata: TYPE_GGN_OCC 12 true
+18:11:09,428 DEBUG Retrieved metadata: TYPE_GGN_CEK 3 true
+18:11:09,437 DEBUG Returning JDBC Connection to DataSource
+18:11:09,438 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO NEW_MTTR (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SOURCE, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMTOM, SOLUTION_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL_OCC, TREG_OCC, WITEL_CEK, TYPE_GGN_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:11:09,438 DEBUG JdbcInsert for table [NEW_MTTR] compiled
+18:11:09,472 DEBUG Executing statement INSERT INTO NEW_MTTR (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SOURCE, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMTOM, SOLUTION_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL_OCC, TREG_OCC, WITEL_CEK, TYPE_GGN_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 1000
+18:11:09,472 DEBUG Executing SQL batch update [INSERT INTO NEW_MTTR (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SOURCE, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMTOM, SOLUTION_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL_OCC, TREG_OCC, WITEL_CEK, TYPE_GGN_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:11:09,475 DEBUG Executing prepared SQL statement [INSERT INTO NEW_MTTR (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SOURCE, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMTOM, SOLUTION_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL_OCC, TREG_OCC, WITEL_CEK, TYPE_GGN_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:11:09,476 DEBUG Fetching JDBC Connection from DataSource
+18:11:09,485 DEBUG JDBC driver supports batch updates
+18:11:09,624 DEBUG Returning JDBC Connection to DataSource
+18:11:09,648 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,648 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,648 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,648 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,649 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:11:09,656 INFO  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+18:11:09,659 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:11:09,662 DEBUG Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+18:11:09,676 DEBUG Loading bean definitions
+18:11:09,688 DEBUG Creating shared instance of singleton bean 'DB2'
+18:11:09,688 DEBUG Creating instance of bean 'DB2'
+18:11:09,688 DEBUG Eagerly caching bean 'DB2' to allow for resolving potential circular references
+18:11:09,691 DEBUG Finished creating instance of bean 'DB2'
+18:11:09,691 DEBUG Creating shared instance of singleton bean 'Derby'
+18:11:09,691 DEBUG Creating instance of bean 'Derby'
+18:11:09,692 DEBUG Eagerly caching bean 'Derby' to allow for resolving potential circular references
+18:11:09,692 DEBUG Finished creating instance of bean 'Derby'
+18:11:09,692 DEBUG Creating shared instance of singleton bean 'H2'
+18:11:09,692 DEBUG Creating instance of bean 'H2'
+18:11:09,692 DEBUG Eagerly caching bean 'H2' to allow for resolving potential circular references
+18:11:09,693 DEBUG Finished creating instance of bean 'H2'
+18:11:09,693 DEBUG Creating shared instance of singleton bean 'HSQL'
+18:11:09,693 DEBUG Creating instance of bean 'HSQL'
+18:11:09,693 DEBUG Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+18:11:09,693 DEBUG Finished creating instance of bean 'HSQL'
+18:11:09,693 DEBUG Creating shared instance of singleton bean 'Informix'
+18:11:09,693 DEBUG Creating instance of bean 'Informix'
+18:11:09,693 DEBUG Eagerly caching bean 'Informix' to allow for resolving potential circular references
+18:11:09,693 DEBUG Finished creating instance of bean 'Informix'
+18:11:09,693 DEBUG Creating shared instance of singleton bean 'MS-SQL'
+18:11:09,693 DEBUG Creating instance of bean 'MS-SQL'
+18:11:09,694 DEBUG Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+18:11:09,694 DEBUG Finished creating instance of bean 'MS-SQL'
+18:11:09,694 DEBUG Creating shared instance of singleton bean 'MySQL'
+18:11:09,694 DEBUG Creating instance of bean 'MySQL'
+18:11:09,694 DEBUG Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+18:11:09,694 DEBUG Finished creating instance of bean 'MySQL'
+18:11:09,695 DEBUG Creating shared instance of singleton bean 'Oracle'
+18:11:09,695 DEBUG Creating instance of bean 'Oracle'
+18:11:09,695 DEBUG Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+18:11:09,695 DEBUG Finished creating instance of bean 'Oracle'
+18:11:09,695 DEBUG Creating shared instance of singleton bean 'PostgreSQL'
+18:11:09,695 DEBUG Creating instance of bean 'PostgreSQL'
+18:11:09,695 DEBUG Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+18:11:09,696 DEBUG Finished creating instance of bean 'PostgreSQL'
+18:11:09,696 DEBUG Creating shared instance of singleton bean 'Sybase'
+18:11:09,696 DEBUG Creating instance of bean 'Sybase'
+18:11:09,696 DEBUG Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+18:11:09,696 DEBUG Finished creating instance of bean 'Sybase'
+18:11:09,696 INFO  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+18:11:09,696 DEBUG Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.BasicDataSource@204337af]
+18:11:09,697 DEBUG Fetching JDBC Connection from DataSource
+18:11:09,705 DEBUG Returning JDBC Connection to DataSource
+18:11:09,706 DEBUG Database product name cached for DataSource [org.apache.commons.dbcp.BasicDataSource@204337af]: name is 'Oracle'
+18:11:09,706 DEBUG SQL error codes for 'Oracle' found
+18:11:09,706 DEBUG Using nested SQLException from the BatchUpdateException
+18:11:09,706 DEBUG Unable to translate SQLException with Error code '1950', will now try the fallback translator
+18:11:09,706 DEBUG Extracted SQL state class '42' from value '42000'
+18:11:09,707 ERROR org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [INSERT INTO NEW_MTTR (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SOURCE, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMTOM, SOLUTION_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL_OCC, TREG_OCC, WITEL_CEK, TYPE_GGN_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; nested exception is java.sql.BatchUpdateException: ORA-01950: no privileges on tablespace 'OGDDWS'
+
+18:11:09,708 INFO  Thread counter : 0
+18:11:09,709 INFO  Loading buffer....
+18:11:09,710 INFO  1 files has been processed!!
+18:11:09,710 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 20 Seconds
+18:12:46,849 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:12:46 WIB 2018]; root of context hierarchy
+18:12:46,928 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,940 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:46,943 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:12:47,010 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:12:47,013 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:12:47,040 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:12:47,044 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:12:47,046 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:12:47,209 DEBUG Loading bean definitions
+18:12:47,262 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:12:47,262 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:12:47,262 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:12:46 WIB 2018]; root of context hierarchy
+18:12:47,293 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:12:47,299 DEBUG Creating instance of bean 'propertyConfigurer'
+18:12:47,349 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:12:47,367 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:12:47,369 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:12:47,376 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:12:47,380 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:12:47,382 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:12:47,382 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:12:47,382 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:12:47,382 DEBUG Creating instance of bean 'dataSource'
+18:12:47,719 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:12:47,743 DEBUG Finished creating instance of bean 'dataSource'
+18:12:47,783 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:12:59,352 INFO  Thread counter : 1
+18:12:59,355 INFO  Processing 1 file(s) 10001.xls
+18:12:59,356 INFO  found measurement mapping for 10001.xls NEW_MTTR_1
+18:13:00,815 INFO  Loading data to table NEW_MTTR_1 size:1000
+18:13:00,815 DEBUG JdbcInsert not compiled before execution - invoking compile
+18:13:00,847 DEBUG Fetching JDBC Connection from DataSource
+18:13:05,961 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+18:13:05,961 DEBUG GetGeneratedKeys is supported
+18:13:05,961 DEBUG GeneratedKeysColumnNameArray is supported for Oracle
+18:13:06,093 DEBUG Retrieving metadata for null/TICARES/NEW_MTTR_1
+18:13:06,116 DEBUG Retrieved metadata: INCIDENT 12 true
+18:13:06,124 DEBUG Retrieved metadata: CUSTOMER_NAME 12 true
+18:13:06,131 DEBUG Retrieved metadata: SUMMARY 12 true
+18:13:06,138 DEBUG Retrieved metadata: OWNER_GROUP 12 true
+18:13:06,145 DEBUG Retrieved metadata: OWNER 12 true
+18:13:06,152 DEBUG Retrieved metadata: LAST_UPDATED_WORK_LOG 12 true
+18:13:06,159 DEBUG Retrieved metadata: LAST_WORK_LOG_DATE 93 true
+18:13:06,166 DEBUG Retrieved metadata: SRC 12 true
+18:13:06,173 DEBUG Retrieved metadata: SEGMENT 12 true
+18:13:06,180 DEBUG Retrieved metadata: CHANNEL 12 true
+18:13:06,187 DEBUG Retrieved metadata: CUSTOMER_SEGMEN 12 true
+18:13:06,194 DEBUG Retrieved metadata: SERVICE_ID 12 true
+18:13:06,201 DEBUG Retrieved metadata: SERVICE_NO 12 true
+18:13:06,208 DEBUG Retrieved metadata: SERVICE_TYPE 12 true
+18:13:06,215 DEBUG Retrieved metadata: TOP_PRIORITY 12 true
+18:13:06,222 DEBUG Retrieved metadata: SLG 12 true
+18:13:06,229 DEBUG Retrieved metadata: TECHNOLOGY 12 true
+18:13:06,236 DEBUG Retrieved metadata: DATEK 12 true
+18:13:06,242 DEBUG Retrieved metadata: RK_NAME 12 true
+18:13:06,249 DEBUG Retrieved metadata: INDUK_GAMAS 12 true
+18:13:06,256 DEBUG Retrieved metadata: REPORTED_DATE 93 true
+18:13:06,263 DEBUG Retrieved metadata: TTR_CUSTOMER 3 true
+18:13:06,271 DEBUG Retrieved metadata: TTR_NASIONAL 3 true
+18:13:06,278 DEBUG Retrieved metadata: TTR_REGIONAL 3 true
+18:13:06,286 DEBUG Retrieved metadata: TTR_WITEL 3 true
+18:13:06,293 DEBUG Retrieved metadata: TTR_MITRA 3 true
+18:13:06,300 DEBUG Retrieved metadata: TTR_AGENT 3 true
+18:13:06,306 DEBUG Retrieved metadata: STATUS 12 true
+18:13:06,313 DEBUG Retrieved metadata: OSM_RESOLVED_CODE 12 true
+18:13:06,320 DEBUG Retrieved metadata: LAST_UPDATE_TICKET 93 true
+18:13:06,327 DEBUG Retrieved metadata: STATUS_DATE 93 true
+18:13:06,334 DEBUG Retrieved metadata: CLOSED_REOPEN_BY 12 true
+18:13:06,341 DEBUG Retrieved metadata: RESOLVED_BY 12 true
+18:13:06,348 DEBUG Retrieved metadata: WORKZONE 12 true
+18:13:06,355 DEBUG Retrieved metadata: WITEL 12 true
+18:13:06,362 DEBUG Retrieved metadata: REGIONAL 12 true
+18:13:06,369 DEBUG Retrieved metadata: INCIDENTS_SYMPTOM 12 true
+18:13:06,376 DEBUG Retrieved metadata: SOLUTIONS_SEGMENT 12 true
+18:13:06,385 DEBUG Retrieved metadata: ACTUAL_SOLUTION 12 true
+18:13:06,396 DEBUG Retrieved metadata: TYPE_GANGGUAN 12 true
+18:13:06,404 DEBUG Retrieved metadata: PRODUK_TYPE 12 true
+18:13:06,411 DEBUG Retrieved metadata: JUMLAH_LINK 3 true
+18:13:06,417 DEBUG Retrieved metadata: GAMAS_GAUL 12 true
+18:13:06,424 DEBUG Retrieved metadata: TARGET_SLG_JAM 3 true
+18:13:06,431 DEBUG Retrieved metadata: POTENSI_REBATE_SLG_PERSEN 3 true
+18:13:06,438 DEBUG Retrieved metadata: SLG_COMPLIANCE 12 true
+18:13:06,445 DEBUG Retrieved metadata: KM_DWS_2017_COMPLIANCE 12 true
+18:13:06,451 DEBUG Retrieved metadata: MTTR_OCC_AGENT_COMPLIANCE 12 true
+18:13:06,458 DEBUG Retrieved metadata: USIA_TICKET_JAM 3 true
+18:13:06,465 DEBUG Retrieved metadata: REG_TSEL 12 true
+18:13:06,472 DEBUG Retrieved metadata: AREA_TSEL 12 true
+18:13:06,481 DEBUG Retrieved metadata: GM_WS 12 true
+18:13:06,488 DEBUG Retrieved metadata: MGR_WS 12 true
+18:13:06,495 DEBUG Retrieved metadata: WITEL__V_OCC 12 true
+18:13:06,502 DEBUG Retrieved metadata: TREG_V_OCC 12 true
+18:13:06,509 DEBUG Retrieved metadata: WITEL_CEK 12 true
+18:13:06,516 DEBUG Retrieved metadata: TYPE_GGN_V_OCC 12 true
+18:13:06,522 DEBUG Retrieved metadata: TYPE_GGN_CEK 12 true
+18:13:06,532 DEBUG Returning JDBC Connection to DataSource
+18:13:06,533 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:13:06,533 DEBUG JdbcInsert for table [NEW_MTTR_1] compiled
+18:13:06,581 DEBUG Executing statement INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 1000
+18:13:06,581 DEBUG Executing SQL batch update [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:13:06,585 DEBUG Executing prepared SQL statement [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:13:06,585 DEBUG Fetching JDBC Connection from DataSource
+18:13:06,595 DEBUG JDBC driver supports batch updates
+18:13:06,732 DEBUG Returning JDBC Connection to DataSource
+18:13:06,742 INFO  Thread counter : 0
+18:13:06,743 INFO  Loading buffer....
+18:13:06,743 INFO  1 files has been processed!!
+18:13:06,744 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 20 Seconds
+18:15:54,563 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:15:54 WIB 2018]; root of context hierarchy
+18:15:54,652 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,653 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,666 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,669 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:15:54,750 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:15:54,753 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:15:54,782 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:15:54,786 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:15:54,787 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:15:54,842 DEBUG Loading bean definitions
+18:15:54,876 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:15:54,876 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:15:54,877 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:15:54 WIB 2018]; root of context hierarchy
+18:15:54,903 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:15:54,909 DEBUG Creating instance of bean 'propertyConfigurer'
+18:15:54,959 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:15:54,980 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:15:54,980 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:15:54,989 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:15:54,993 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:15:54,994 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:15:54,994 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:15:54,994 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:15:54,994 DEBUG Creating instance of bean 'dataSource'
+18:15:55,269 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:15:55,292 DEBUG Finished creating instance of bean 'dataSource'
+18:15:55,333 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:16:06,884 INFO  Thread counter : 1
+18:16:06,887 INFO  Processing 1 file(s) 10001.xls
+18:16:06,887 INFO  found measurement mapping for 10001.xls NEW_MTTR_1
+18:16:08,279 INFO  Loading data to table NEW_MTTR_1 size:1000
+18:16:08,279 DEBUG JdbcInsert not compiled before execution - invoking compile
+18:16:08,313 DEBUG Fetching JDBC Connection from DataSource
+18:16:13,411 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+18:16:13,411 DEBUG GetGeneratedKeys is supported
+18:16:13,411 DEBUG GeneratedKeysColumnNameArray is supported for Oracle
+18:16:13,529 DEBUG Retrieving metadata for null/TICARES/NEW_MTTR_1
+18:16:13,550 DEBUG Retrieved metadata: INCIDENT 12 true
+18:16:13,557 DEBUG Retrieved metadata: CUSTOMER_NAME 12 true
+18:16:13,564 DEBUG Retrieved metadata: SUMMARY 12 true
+18:16:13,571 DEBUG Retrieved metadata: OWNER_GROUP 12 true
+18:16:13,578 DEBUG Retrieved metadata: OWNER 12 true
+18:16:13,585 DEBUG Retrieved metadata: LAST_UPDATED_WORK_LOG 12 true
+18:16:13,593 DEBUG Retrieved metadata: LAST_WORK_LOG_DATE 93 true
+18:16:13,600 DEBUG Retrieved metadata: SRC 12 true
+18:16:13,607 DEBUG Retrieved metadata: SEGMENT 12 true
+18:16:13,615 DEBUG Retrieved metadata: CHANNEL 12 true
+18:16:13,622 DEBUG Retrieved metadata: CUSTOMER_SEGMEN 12 true
+18:16:13,629 DEBUG Retrieved metadata: SERVICE_ID 12 true
+18:16:13,636 DEBUG Retrieved metadata: SERVICE_NO 12 true
+18:16:13,645 DEBUG Retrieved metadata: SERVICE_TYPE 12 true
+18:16:13,654 DEBUG Retrieved metadata: TOP_PRIORITY 12 true
+18:16:13,661 DEBUG Retrieved metadata: SLG 12 true
+18:16:13,668 DEBUG Retrieved metadata: TECHNOLOGY 12 true
+18:16:13,675 DEBUG Retrieved metadata: DATEK 12 true
+18:16:13,682 DEBUG Retrieved metadata: RK_NAME 12 true
+18:16:13,689 DEBUG Retrieved metadata: INDUK_GAMAS 12 true
+18:16:13,696 DEBUG Retrieved metadata: REPORTED_DATE 93 true
+18:16:13,703 DEBUG Retrieved metadata: TTR_CUSTOMER 3 true
+18:16:13,710 DEBUG Retrieved metadata: TTR_NASIONAL 3 true
+18:16:13,716 DEBUG Retrieved metadata: TTR_REGIONAL 3 true
+18:16:13,723 DEBUG Retrieved metadata: TTR_WITEL 3 true
+18:16:13,730 DEBUG Retrieved metadata: TTR_MITRA 3 true
+18:16:13,737 DEBUG Retrieved metadata: TTR_AGENT 3 true
+18:16:13,744 DEBUG Retrieved metadata: STATUS 12 true
+18:16:13,751 DEBUG Retrieved metadata: OSM_RESOLVED_CODE 12 true
+18:16:13,758 DEBUG Retrieved metadata: LAST_UPDATE_TICKET 93 true
+18:16:13,766 DEBUG Retrieved metadata: STATUS_DATE 93 true
+18:16:13,773 DEBUG Retrieved metadata: CLOSED_REOPEN_BY 12 true
+18:16:13,780 DEBUG Retrieved metadata: RESOLVED_BY 12 true
+18:16:13,786 DEBUG Retrieved metadata: WORKZONE 12 true
+18:16:13,793 DEBUG Retrieved metadata: WITEL 12 true
+18:16:13,800 DEBUG Retrieved metadata: REGIONAL 12 true
+18:16:13,808 DEBUG Retrieved metadata: INCIDENTS_SYMPTOM 12 true
+18:16:13,815 DEBUG Retrieved metadata: SOLUTIONS_SEGMENT 12 true
+18:16:13,828 DEBUG Retrieved metadata: ACTUAL_SOLUTION 12 true
+18:16:13,834 DEBUG Retrieved metadata: TYPE_GANGGUAN 12 true
+18:16:13,844 DEBUG Retrieved metadata: PRODUK_TYPE 12 true
+18:16:13,850 DEBUG Retrieved metadata: JUMLAH_LINK 3 true
+18:16:13,857 DEBUG Retrieved metadata: GAMAS_GAUL 12 true
+18:16:13,865 DEBUG Retrieved metadata: TARGET_SLG_JAM 3 true
+18:16:13,873 DEBUG Retrieved metadata: POTENSI_REBATE_SLG_PERSEN 3 true
+18:16:13,881 DEBUG Retrieved metadata: SLG_COMPLIANCE 12 true
+18:16:13,890 DEBUG Retrieved metadata: KM_DWS_2017_COMPLIANCE 12 true
+18:16:13,899 DEBUG Retrieved metadata: MTTR_OCC_AGENT_COMPLIANCE 12 true
+18:16:13,908 DEBUG Retrieved metadata: USIA_TICKET_JAM 3 true
+18:16:13,915 DEBUG Retrieved metadata: REG_TSEL 12 true
+18:16:13,922 DEBUG Retrieved metadata: AREA_TSEL 12 true
+18:16:13,931 DEBUG Retrieved metadata: GM_WS 12 true
+18:16:13,938 DEBUG Retrieved metadata: MGR_WS 12 true
+18:16:13,945 DEBUG Retrieved metadata: WITEL__V_OCC 12 true
+18:16:13,953 DEBUG Retrieved metadata: TREG_V_OCC 12 true
+18:16:13,959 DEBUG Retrieved metadata: WITEL_CEK 12 true
+18:16:13,968 DEBUG Retrieved metadata: TYPE_GGN_V_OCC 12 true
+18:16:13,975 DEBUG Retrieved metadata: TYPE_GGN_CEK 12 true
+18:16:13,988 DEBUG Returning JDBC Connection to DataSource
+18:16:13,989 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:16:13,989 DEBUG JdbcInsert for table [NEW_MTTR_1] compiled
+18:16:14,036 DEBUG Executing statement INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 1000
+18:16:14,036 DEBUG Executing SQL batch update [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:16:14,040 DEBUG Executing prepared SQL statement [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:16:14,040 DEBUG Fetching JDBC Connection from DataSource
+18:16:14,051 DEBUG JDBC driver supports batch updates
+18:16:14,180 DEBUG Returning JDBC Connection to DataSource
+18:16:14,192 INFO  Thread counter : 0
+18:16:14,192 INFO  Loading buffer....
+18:16:14,193 INFO  1 files has been processed!!
+18:16:14,193 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 20 Seconds
+18:34:16,555 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:34:16 WIB 2018]; root of context hierarchy
+18:34:16,656 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,656 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,656 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,656 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,657 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,657 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,657 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,670 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,673 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:34:16,777 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:34:16,782 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:34:17,024 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:34:17,030 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:34:17,033 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:34:17,175 DEBUG Loading bean definitions
+18:34:17,224 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:34:17,224 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:34:17,224 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:34:16 WIB 2018]; root of context hierarchy
+18:34:17,254 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:34:17,268 DEBUG Creating instance of bean 'propertyConfigurer'
+18:34:17,328 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:34:17,349 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:34:17,352 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:34:17,368 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:34:17,372 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:34:17,376 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:34:17,376 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:34:17,377 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:34:17,377 DEBUG Creating instance of bean 'dataSource'
+18:34:18,052 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:34:18,085 DEBUG Finished creating instance of bean 'dataSource'
+18:34:18,209 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:34:30,563 INFO  Thread counter : 1
+18:34:30,568 INFO  Processing 1 file(s) 10001.xls
+18:34:30,569 INFO  found measurement mapping for 10001.xls NEW_MTTR_1
+18:34:31,972 INFO  Loading data to table NEW_MTTR_1 size:1000
+18:34:31,972 DEBUG JdbcInsert not compiled before execution - invoking compile
+18:34:32,004 DEBUG Fetching JDBC Connection from DataSource
+18:34:37,110 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+18:34:37,112 DEBUG GetGeneratedKeys is supported
+18:34:37,113 DEBUG GeneratedKeysColumnNameArray is supported for Oracle
+18:34:37,230 DEBUG Retrieving metadata for null/TICARES/NEW_MTTR_1
+18:34:37,255 DEBUG Retrieved metadata: INCIDENT 12 true
+18:34:37,263 DEBUG Retrieved metadata: CUSTOMER_NAME 12 true
+18:34:37,271 DEBUG Retrieved metadata: SUMMARY 12 true
+18:34:37,278 DEBUG Retrieved metadata: OWNER_GROUP 12 true
+18:34:37,286 DEBUG Retrieved metadata: OWNER 12 true
+18:34:37,294 DEBUG Retrieved metadata: LAST_UPDATED_WORK_LOG 12 true
+18:34:37,302 DEBUG Retrieved metadata: LAST_WORK_LOG_DATE 93 true
+18:34:37,310 DEBUG Retrieved metadata: SRC 12 true
+18:34:37,317 DEBUG Retrieved metadata: SEGMENT 12 true
+18:34:37,325 DEBUG Retrieved metadata: CHANNEL 12 true
+18:34:37,332 DEBUG Retrieved metadata: CUSTOMER_SEGMEN 12 true
+18:34:37,342 DEBUG Retrieved metadata: SERVICE_ID 12 true
+18:34:37,350 DEBUG Retrieved metadata: SERVICE_NO 12 true
+18:34:37,359 DEBUG Retrieved metadata: SERVICE_TYPE 12 true
+18:34:37,367 DEBUG Retrieved metadata: TOP_PRIORITY 12 true
+18:34:37,375 DEBUG Retrieved metadata: SLG 12 true
+18:34:37,383 DEBUG Retrieved metadata: TECHNOLOGY 12 true
+18:34:37,390 DEBUG Retrieved metadata: DATEK 12 true
+18:34:37,398 DEBUG Retrieved metadata: RK_NAME 12 true
+18:34:37,406 DEBUG Retrieved metadata: INDUK_GAMAS 12 true
+18:34:37,414 DEBUG Retrieved metadata: REPORTED_DATE 93 true
+18:34:37,422 DEBUG Retrieved metadata: TTR_CUSTOMER 3 true
+18:34:37,429 DEBUG Retrieved metadata: TTR_NASIONAL 3 true
+18:34:37,437 DEBUG Retrieved metadata: TTR_REGIONAL 3 true
+18:34:37,444 DEBUG Retrieved metadata: TTR_WITEL 3 true
+18:34:37,453 DEBUG Retrieved metadata: TTR_MITRA 3 true
+18:34:37,460 DEBUG Retrieved metadata: TTR_AGENT 3 true
+18:34:37,468 DEBUG Retrieved metadata: STATUS 12 true
+18:34:37,475 DEBUG Retrieved metadata: OSM_RESOLVED_CODE 12 true
+18:34:37,483 DEBUG Retrieved metadata: LAST_UPDATE_TICKET 93 true
+18:34:37,490 DEBUG Retrieved metadata: STATUS_DATE 93 true
+18:34:37,497 DEBUG Retrieved metadata: CLOSED_REOPEN_BY 12 true
+18:34:37,504 DEBUG Retrieved metadata: RESOLVED_BY 12 true
+18:34:37,512 DEBUG Retrieved metadata: WORKZONE 12 true
+18:34:37,519 DEBUG Retrieved metadata: WITEL 12 true
+18:34:37,527 DEBUG Retrieved metadata: REGIONAL 12 true
+18:34:37,534 DEBUG Retrieved metadata: INCIDENTS_SYMPTOM 12 true
+18:34:37,542 DEBUG Retrieved metadata: SOLUTIONS_SEGMENT 12 true
+18:34:37,550 DEBUG Retrieved metadata: ACTUAL_SOLUTION 12 true
+18:34:37,557 DEBUG Retrieved metadata: TYPE_GANGGUAN 12 true
+18:34:37,566 DEBUG Retrieved metadata: PRODUK_TYPE 12 true
+18:34:37,574 DEBUG Retrieved metadata: JUMLAH_LINK 3 true
+18:34:37,583 DEBUG Retrieved metadata: GAMAS_GAUL 12 true
+18:34:37,591 DEBUG Retrieved metadata: TARGET_SLG_JAM 3 true
+18:34:37,599 DEBUG Retrieved metadata: POTENSI_REBATE_SLG_PERSEN 3 true
+18:34:37,606 DEBUG Retrieved metadata: SLG_COMPLIANCE 12 true
+18:34:37,613 DEBUG Retrieved metadata: KM_DWS_2017_COMPLIANCE 12 true
+18:34:37,620 DEBUG Retrieved metadata: MTTR_OCC_AGENT_COMPLIANCE 12 true
+18:34:37,627 DEBUG Retrieved metadata: USIA_TICKET_JAM 3 true
+18:34:37,634 DEBUG Retrieved metadata: REG_TSEL 12 true
+18:34:37,641 DEBUG Retrieved metadata: AREA_TSEL 12 true
+18:34:37,647 DEBUG Retrieved metadata: GM_WS 12 true
+18:34:37,654 DEBUG Retrieved metadata: MGR_WS 12 true
+18:34:37,661 DEBUG Retrieved metadata: WITEL__V_OCC 12 true
+18:34:37,668 DEBUG Retrieved metadata: TREG_V_OCC 12 true
+18:34:37,674 DEBUG Retrieved metadata: WITEL_CEK 12 true
+18:34:37,681 DEBUG Retrieved metadata: TYPE_GGN_V_OCC 12 true
+18:34:37,688 DEBUG Retrieved metadata: TYPE_GGN_CEK 12 true
+18:34:37,697 DEBUG Returning JDBC Connection to DataSource
+18:34:37,698 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:34:37,698 DEBUG JdbcInsert for table [NEW_MTTR_1] compiled
+18:34:37,731 DEBUG Executing statement INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 1000
+18:34:37,731 DEBUG Executing SQL batch update [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:34:37,735 DEBUG Executing prepared SQL statement [INSERT INTO NEW_MTTR_1 (INCIDENT, CUSTOMER_NAME, SUMMARY, OWNER_GROUP, OWNER, LAST_UPDATED_WORK_LOG, LAST_WORK_LOG_DATE, SRC, SEGMENT, CHANNEL, CUSTOMER_SEGMEN, SERVICE_ID, SERVICE_NO, SERVICE_TYPE, TOP_PRIORITY, SLG, TECHNOLOGY, DATEK, RK_NAME, INDUK_GAMAS, REPORTED_DATE, TTR_CUSTOMER, TTR_NASIONAL, TTR_REGIONAL, TTR_WITEL, TTR_MITRA, TTR_AGENT, STATUS, OSM_RESOLVED_CODE, LAST_UPDATE_TICKET, STATUS_DATE, CLOSED_REOPEN_BY, RESOLVED_BY, WORKZONE, WITEL, REGIONAL, INCIDENTS_SYMPTOM, SOLUTIONS_SEGMENT, ACTUAL_SOLUTION, TYPE_GANGGUAN, PRODUK_TYPE, JUMLAH_LINK, GAMAS_GAUL, TARGET_SLG_JAM, POTENSI_REBATE_SLG_PERSEN, SLG_COMPLIANCE, KM_DWS_2017_COMPLIANCE, MTTR_OCC_AGENT_COMPLIANCE, USIA_TICKET_JAM, REG_TSEL, AREA_TSEL, GM_WS, MGR_WS, WITEL__V_OCC, TREG_V_OCC, WITEL_CEK, TYPE_GGN_V_OCC, TYPE_GGN_CEK) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+18:34:37,736 DEBUG Fetching JDBC Connection from DataSource
+18:34:37,744 DEBUG JDBC driver supports batch updates
+18:34:37,917 DEBUG Returning JDBC Connection to DataSource
+18:34:37,929 INFO  Thread counter : 0
+18:34:37,931 INFO  Loading buffer....
+18:34:37,932 INFO  1 files has been processed!!
+18:34:37,935 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 22 Seconds
+18:36:43,596 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:36:43 WIB 2018]; root of context hierarchy
+18:36:43,683 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,692 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,696 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:36:43,773 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:36:43,775 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:36:43,806 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:36:43,810 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:36:43,812 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:36:43,891 DEBUG Loading bean definitions
+18:36:43,928 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:36:43,928 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:36:43,928 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:36:43 WIB 2018]; root of context hierarchy
+18:36:43,950 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:36:43,960 DEBUG Creating instance of bean 'propertyConfigurer'
+18:36:44,002 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:36:44,024 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:36:44,025 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:36:44,035 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:36:44,039 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:36:44,040 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:36:44,040 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:36:44,040 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:36:44,040 DEBUG Creating instance of bean 'dataSource'
+18:36:44,329 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:36:44,360 DEBUG Finished creating instance of bean 'dataSource'
+18:36:44,409 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:36:55,960 INFO  Thread counter : 1
+18:36:55,962 INFO  Processing 1 file(s) ALL TIKET GGN 2017 V1 (GROUP Type GGN Done).xlsx
+18:36:55,963 INFO  Thread counter : 0
+18:36:55,963 INFO  Loading buffer....
+18:36:55,964 INFO  1 files has been processed!!
+18:36:55,965 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 13 Seconds
+18:37:31,315 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:37:31 WIB 2018]; root of context hierarchy
+18:37:31,411 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,411 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,411 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,411 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,412 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,412 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,412 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,425 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,430 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:31,512 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:37:31,516 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:37:31,541 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:37:31,545 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:37:31,547 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:37:31,607 DEBUG Loading bean definitions
+18:37:31,641 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:37:31,641 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:37:31,641 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:37:31 WIB 2018]; root of context hierarchy
+18:37:31,665 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:37:31,675 DEBUG Creating instance of bean 'propertyConfigurer'
+18:37:31,726 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:37:31,749 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:37:31,751 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:37:31,763 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:37:31,767 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:37:31,768 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:37:31,768 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:37:31,768 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:37:31,768 DEBUG Creating instance of bean 'dataSource'
+18:37:32,022 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:37:32,045 DEBUG Finished creating instance of bean 'dataSource'
+18:37:32,086 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:37:52,786 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:37:52 WIB 2018]; root of context hierarchy
+18:37:52,882 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,883 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,895 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,898 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:37:52,981 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:37:52,984 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:37:53,007 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:37:53,011 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:37:53,012 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:37:53,092 DEBUG Loading bean definitions
+18:37:53,125 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:37:53,125 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:37:53,125 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:37:52 WIB 2018]; root of context hierarchy
+18:37:53,157 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:37:53,163 DEBUG Creating instance of bean 'propertyConfigurer'
+18:37:53,215 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:37:53,241 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:37:53,242 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:37:53,252 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:37:53,256 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:37:53,257 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:37:53,257 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:37:53,257 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:37:53,257 DEBUG Creating instance of bean 'dataSource'
+18:37:53,511 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:37:53,535 DEBUG Finished creating instance of bean 'dataSource'
+18:37:53,579 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:38:05,170 INFO  Thread counter : 1
+18:38:05,173 INFO  Processing 1 file(s) ALL TIKET GGN 2017 V1 (GROUP Type GGN Done).xlsx
+18:38:05,173 INFO  found measurement mapping for ALL TIKET GGN 2017 V1 (GROUP Type GGN Done).xlsx NEW_MTTR_1
+18:39:18,868 INFO  Thread counter : 0
+18:39:18,871 INFO  Loading buffer....
+18:39:18,873 INFO  1 files has been processed!!
+18:39:19,045 INFO  Finish!! elapsed:0 Days 0 Hours 1 Minutes 27 Seconds
+18:39:34,645 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:39:34 WIB 2018]; root of context hierarchy
+18:39:34,679 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,680 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,684 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,685 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+18:39:34,711 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+18:39:34,715 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+18:39:34,743 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+18:39:34,745 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+18:39:34,746 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+18:39:34,799 DEBUG Loading bean definitions
+18:39:34,822 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+18:39:34,822 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+18:39:34,822 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Tue Jan 23 18:39:34 WIB 2018]; root of context hierarchy
+18:39:34,831 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+18:39:34,835 DEBUG Creating instance of bean 'propertyConfigurer'
+18:39:34,850 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+18:39:34,863 DEBUG Finished creating instance of bean 'propertyConfigurer'
+18:39:34,864 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+18:39:34,871 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+18:39:34,872 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+18:39:34,873 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+18:39:34,873 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+18:39:34,873 DEBUG Creating shared instance of singleton bean 'dataSource'
+18:39:34,873 DEBUG Creating instance of bean 'dataSource'
+18:39:35,034 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+18:39:35,056 DEBUG Finished creating instance of bean 'dataSource'
+18:39:35,096 DEBUG Returning cached instance of singleton bean 'dataSource'
+18:39:46,213 INFO  Thread counter : 1
+18:39:46,213 INFO  Processing 1 file(s) ALL TIKET GGN 2017 V1 (GROUP Type GGN Done).xlsx
+18:39:46,214 INFO  found measurement mapping for ALL TIKET GGN 2017 V1 (GROUP Type GGN Done).xlsx NEW_MTTR_1
+18:40:40,525 INFO  Thread counter : 0
+18:40:40,529 INFO  Loading buffer....
+18:40:40,626 INFO  1 files has been processed!!
+18:40:40,627 INFO  Finish!! elapsed:0 Days 0 Hours 1 Minutes 6 Seconds

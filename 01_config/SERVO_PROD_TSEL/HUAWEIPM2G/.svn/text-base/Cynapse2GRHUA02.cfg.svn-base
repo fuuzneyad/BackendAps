@@ -1,0 +1,36 @@
+###########################################################
+#Praxis Cynapse Configuration
+#Version 1.1
+#Copyright 2013 @SMLTechnologies
+###########################################################
+
+CYNAPSE_ID			=HUAPMXML1.0
+CYNAPSE_USERNAME		=Telkomsel
+CYNAPSE_KEY			=0000-006b-1423-1423-41fe
+CYNAPSE_APP_CONTEXT		=../01_config/ParserConfig.xml
+CYNAPSE_LOG4J_CONFIG		=../01_config/log4j.properties
+
+###########################################################
+
+#MODE(Generate Schema mode, Generate=[Y], Parsing=[N]; Rewrite File Meta, Rewrite=[Y])
+GENERATE_SCHEMA_MODE		=N
+REWRITE_METADATA_FL_MODE	=N
+FILE_SCHEMA_LOC			=../09_extra/
+MAX_THREAD			=4
+
+###########################################################
+#oss1
+SOURCE_ID_1			=2GRHUA02
+FILE_PATTERN_1			=A(.*).xml
+DATE_PATTERN_1			=yyyyMMdd
+LOCAL_DIR_1			=../02_raw/2GRHUA02
+MAPPING_CONFIG_1		=../01_config/HuaweiXMLMappingServo2.cfg
+TIME_DIFF_1			=+0
+TABLE_PREFIX_1			=R1_
+CHECK_ALREADY_PROC_1		=Y
+TRUNCATE_RAW_FIRST_1		=Y
+OUTPUT_CONFIG_1			=../01_config/OutputMethod2.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_1		=RM
+BACKUP_DIR_1			=../08_backup/2GRHUA02
+

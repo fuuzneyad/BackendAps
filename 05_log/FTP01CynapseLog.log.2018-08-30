@@ -1,0 +1,455 @@
+00:00:01,334 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:00:01 WIB 2018]; root of context hierarchy
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,366 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,369 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,370 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:00:01,389 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+00:00:01,393 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+00:00:01,423 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+00:00:01,424 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+00:00:01,426 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+00:00:01,477 DEBUG Loading bean definitions
+00:00:01,500 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+00:00:01,500 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+00:00:01,500 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:00:01 WIB 2018]; root of context hierarchy
+00:00:01,513 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+00:00:01,521 DEBUG Creating instance of bean 'propertyConfigurer'
+00:00:01,542 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+00:00:01,557 DEBUG Finished creating instance of bean 'propertyConfigurer'
+00:00:01,558 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+00:00:01,565 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+00:00:01,567 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+00:00:01,568 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+00:00:01,568 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+00:00:01,568 DEBUG Creating shared instance of singleton bean 'dataSource'
+00:00:01,569 DEBUG Creating instance of bean 'dataSource'
+00:00:01,725 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+00:00:01,744 DEBUG Finished creating instance of bean 'dataSource'
+00:00:01,784 DEBUG Returning cached instance of singleton bean 'dataSource'
+00:00:02,200 INFO  Thread counter : 1
+00:00:02,200 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xls
+00:00:02,201 INFO  found measurement mapping for Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xls RAW_WEEKLY_IUB_UTIL
+00:00:05,939 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:05,940 DEBUG JdbcInsert not compiled before execution - invoking compile
+00:00:05,947 DEBUG Fetching JDBC Connection from DataSource
+00:00:05,968 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+00:00:05,968 DEBUG GetGeneratedKeys is supported
+00:00:05,968 DEBUG GeneratedKeysColumnNameArray is supported for MySQL
+00:00:05,974 DEBUG Retrieving metadata for dashboard_transport/root@localhost/RAW_WEEKLY_IUB_UTIL
+00:00:05,992 DEBUG Retrieved metadata: REGIONAL 12 true
+00:00:05,992 DEBUG Retrieved metadata: SUB_REGIONAL 12 true
+00:00:05,993 DEBUG Retrieved metadata: SUB2_REGIONAL 12 true
+00:00:05,993 DEBUG Retrieved metadata: AREA 12 true
+00:00:05,993 DEBUG Retrieved metadata: VENDOR 12 true
+00:00:05,993 DEBUG Retrieved metadata: WEEK_ 8 true
+00:00:05,993 DEBUG Retrieved metadata: RNC 12 true
+00:00:05,994 DEBUG Retrieved metadata: NODEB 12 true
+00:00:05,994 DEBUG Retrieved metadata: SITE_ID 12 true
+00:00:05,994 DEBUG Retrieved metadata: MEAN_DL_IUB_USAGE 8 true
+00:00:05,994 DEBUG Retrieved metadata: MAX_UL_IUB_USAGE 8 true
+00:00:05,994 DEBUG Retrieved metadata: MEAN_UL_IUB_USAGE 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_DL_CAPACITY 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_UL_CAPACITY 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_DL_OCC_PERCENT 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_UL_OCC_PERCENT 8 true
+00:00:05,994 DEBUG Retrieved metadata: MAXIUB_OCC_PERCENT 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_DL_MAX_OCC_PERCENT 8 true
+00:00:05,994 DEBUG Retrieved metadata: IUB_UL_MAX_OCC_PERCENT 8 true
+00:00:05,995 DEBUG Retrieved metadata: IUB_MAX_OCCUPANCY_PERCENT 8 true
+00:00:05,995 DEBUG Returning JDBC Connection to DataSource
+00:00:05,995 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:05,996 DEBUG JdbcInsert for table [RAW_WEEKLY_IUB_UTIL] compiled
+00:00:06,073 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:06,074 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:06,075 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:06,075 DEBUG Fetching JDBC Connection from DataSource
+00:00:06,089 DEBUG JDBC driver supports batch updates
+00:00:07,110 DEBUG Returning JDBC Connection to DataSource
+00:00:07,500 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:07,547 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:07,547 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:07,547 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:07,547 DEBUG Fetching JDBC Connection from DataSource
+00:00:07,548 DEBUG JDBC driver supports batch updates
+00:00:08,413 DEBUG Returning JDBC Connection to DataSource
+00:00:08,704 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:08,740 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:08,740 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:08,740 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:08,740 DEBUG Fetching JDBC Connection from DataSource
+00:00:08,741 DEBUG JDBC driver supports batch updates
+00:00:09,506 DEBUG Returning JDBC Connection to DataSource
+00:00:09,852 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:09,886 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:09,887 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:09,887 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:09,887 DEBUG Fetching JDBC Connection from DataSource
+00:00:09,887 DEBUG JDBC driver supports batch updates
+00:00:10,645 DEBUG Returning JDBC Connection to DataSource
+00:00:10,907 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:10,943 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:10,943 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:10,943 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:10,943 DEBUG Fetching JDBC Connection from DataSource
+00:00:10,944 DEBUG JDBC driver supports batch updates
+00:00:11,672 DEBUG Returning JDBC Connection to DataSource
+00:00:11,885 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:11,925 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:11,925 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:11,925 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:11,925 DEBUG Fetching JDBC Connection from DataSource
+00:00:11,926 DEBUG JDBC driver supports batch updates
+00:00:12,669 DEBUG Returning JDBC Connection to DataSource
+00:00:12,911 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:12,943 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:12,943 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:12,943 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:12,943 DEBUG Fetching JDBC Connection from DataSource
+00:00:12,944 DEBUG JDBC driver supports batch updates
+00:00:13,714 DEBUG Returning JDBC Connection to DataSource
+00:00:13,929 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:13,962 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:13,962 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:13,962 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:13,962 DEBUG Fetching JDBC Connection from DataSource
+00:00:13,963 DEBUG JDBC driver supports batch updates
+00:00:14,808 DEBUG Returning JDBC Connection to DataSource
+00:00:15,014 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:15,049 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:15,049 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:15,049 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:15,049 DEBUG Fetching JDBC Connection from DataSource
+00:00:15,049 DEBUG JDBC driver supports batch updates
+00:00:15,773 DEBUG Returning JDBC Connection to DataSource
+00:00:16,022 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:5000
+00:00:16,061 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:00:16,061 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:16,061 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:16,061 DEBUG Fetching JDBC Connection from DataSource
+00:00:16,062 DEBUG JDBC driver supports batch updates
+00:00:16,800 DEBUG Returning JDBC Connection to DataSource
+00:00:17,003 INFO  Loading data to table RAW_WEEKLY_IUB_UTIL size:4421
+00:00:17,038 DEBUG Executing statement INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) with batch of size: 4421
+00:00:17,038 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:17,038 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_IUB_UTIL (REGIONAL, SUB_REGIONAL, SUB2_REGIONAL, AREA, VENDOR, WEEK_, RNC, NODEB, SITE_ID, MEAN_DL_IUB_USAGE, MAX_UL_IUB_USAGE, MEAN_UL_IUB_USAGE, IUB_DL_CAPACITY, IUB_UL_CAPACITY, IUB_DL_OCC_PERCENT, IUB_UL_OCC_PERCENT, MAXIUB_OCC_PERCENT, IUB_DL_MAX_OCC_PERCENT, IUB_UL_MAX_OCC_PERCENT, IUB_MAX_OCCUPANCY_PERCENT) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+00:00:17,038 DEBUG Fetching JDBC Connection from DataSource
+00:00:17,039 DEBUG JDBC driver supports batch updates
+00:00:17,699 DEBUG Returning JDBC Connection to DataSource
+00:00:17,700 INFO  Thread counter : 0
+00:00:17,700 INFO  Loading buffer....
+00:00:17,701 INFO  1 files has been processed!!
+00:00:17,701 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 17 Seconds
+00:06:08,825 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:06:08 WIB 2018]; root of context hierarchy
+00:06:08,912 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,912 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,912 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,913 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,913 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,913 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,913 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,926 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:08,929 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:06:09,016 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+00:06:09,021 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+00:06:09,049 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+00:06:09,053 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+00:06:09,055 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+00:06:09,121 DEBUG Loading bean definitions
+00:06:09,156 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+00:06:09,156 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+00:06:09,156 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:06:08 WIB 2018]; root of context hierarchy
+00:06:09,180 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+00:06:09,186 DEBUG Creating instance of bean 'propertyConfigurer'
+00:06:09,239 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+00:06:09,259 DEBUG Finished creating instance of bean 'propertyConfigurer'
+00:06:09,260 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+00:06:09,268 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+00:06:09,272 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+00:06:09,273 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+00:06:09,273 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+00:06:09,274 DEBUG Creating shared instance of singleton bean 'dataSource'
+00:06:09,274 DEBUG Creating instance of bean 'dataSource'
+00:06:09,537 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+00:06:09,562 DEBUG Finished creating instance of bean 'dataSource'
+00:06:09,607 INFO  Generating Schema..
+00:06:09,665 INFO  Thread counter : 1
+00:06:09,669 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xls
+00:06:09,671 INFO  Processing 1 file(s) weekly total payload Mbyte 201834.xls
+00:06:09,671 INFO  found measurement mapping for weekly total payload Mbyte 201834.xls RAW_WEEKLY_PAYLOAD_MB
+00:06:16,157 INFO  Thread counter : 0
+00:06:16,160 INFO  1 files has been processed!!
+00:06:16,161 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 8 Seconds
+00:07:30,260 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:07:30 WIB 2018]; root of context hierarchy
+00:07:30,291 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,292 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,295 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,296 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+00:07:30,321 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+00:07:30,323 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+00:07:30,357 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+00:07:30,359 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+00:07:30,360 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+00:07:30,435 DEBUG Loading bean definitions
+00:07:30,454 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+00:07:30,454 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+00:07:30,454 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 00:07:30 WIB 2018]; root of context hierarchy
+00:07:30,465 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+00:07:30,469 DEBUG Creating instance of bean 'propertyConfigurer'
+00:07:30,486 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+00:07:30,502 DEBUG Finished creating instance of bean 'propertyConfigurer'
+00:07:30,503 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+00:07:30,508 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+00:07:30,510 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+00:07:30,511 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+00:07:30,511 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+00:07:30,511 DEBUG Creating shared instance of singleton bean 'dataSource'
+00:07:30,512 DEBUG Creating instance of bean 'dataSource'
+00:07:30,760 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+00:07:30,780 DEBUG Finished creating instance of bean 'dataSource'
+00:07:30,826 DEBUG Returning cached instance of singleton bean 'dataSource'
+00:07:31,455 INFO  Thread counter : 1
+00:07:31,456 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xls
+00:07:31,457 INFO  Thread counter : 0
+00:07:31,457 INFO  Thread counter : 1
+00:07:31,457 INFO  Processing 1 file(s) weekly total payload Mbyte 201834.xls
+00:07:31,457 INFO  found measurement mapping for weekly total payload Mbyte 201834.xls RAW_WEEKLY_PAYLOAD_MB
+00:07:33,880 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:33,881 DEBUG JdbcInsert not compiled before execution - invoking compile
+00:07:33,917 DEBUG Fetching JDBC Connection from DataSource
+00:07:33,938 DEBUG Using org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider
+00:07:33,938 DEBUG GetGeneratedKeys is supported
+00:07:33,938 DEBUG GeneratedKeysColumnNameArray is supported for MySQL
+00:07:33,950 DEBUG Retrieving metadata for dashboard_transport/root@localhost/RAW_WEEKLY_PAYLOAD_MB
+00:07:33,974 DEBUG Retrieved metadata: YEAR_WEEK 12 true
+00:07:33,974 DEBUG Retrieved metadata: REGIONAL 12 true
+00:07:33,974 DEBUG Retrieved metadata: SITE_NAME 12 true
+00:07:33,974 DEBUG Retrieved metadata: SITE_ID 12 true
+00:07:33,974 DEBUG Retrieved metadata: TECH 12 true
+00:07:33,974 DEBUG Retrieved metadata: PAYLOAD 8 true
+00:07:33,977 DEBUG Returning JDBC Connection to DataSource
+00:07:33,977 DEBUG Compiled JdbcInsert. Insert string is [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:33,977 DEBUG JdbcInsert for table [RAW_WEEKLY_PAYLOAD_MB] compiled
+00:07:34,007 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:34,007 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:34,011 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:34,011 DEBUG Fetching JDBC Connection from DataSource
+00:07:34,029 DEBUG JDBC driver supports batch updates
+00:07:34,893 DEBUG Returning JDBC Connection to DataSource
+00:07:35,782 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:35,804 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:35,804 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:35,804 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:35,804 DEBUG Fetching JDBC Connection from DataSource
+00:07:35,805 DEBUG JDBC driver supports batch updates
+00:07:36,598 DEBUG Returning JDBC Connection to DataSource
+00:07:36,724 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:36,739 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:36,739 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:36,739 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:36,740 DEBUG Fetching JDBC Connection from DataSource
+00:07:36,740 DEBUG JDBC driver supports batch updates
+00:07:37,482 DEBUG Returning JDBC Connection to DataSource
+00:07:37,588 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:37,636 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:37,636 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:37,636 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:37,636 DEBUG Fetching JDBC Connection from DataSource
+00:07:37,637 DEBUG JDBC driver supports batch updates
+00:07:38,326 DEBUG Returning JDBC Connection to DataSource
+00:07:38,396 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:38,422 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:38,422 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:38,422 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:38,422 DEBUG Fetching JDBC Connection from DataSource
+00:07:38,423 DEBUG JDBC driver supports batch updates
+00:07:39,043 DEBUG Returning JDBC Connection to DataSource
+00:07:39,174 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:39,186 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:39,186 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:39,186 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:39,186 DEBUG Fetching JDBC Connection from DataSource
+00:07:39,187 DEBUG JDBC driver supports batch updates
+00:07:39,824 DEBUG Returning JDBC Connection to DataSource
+00:07:39,903 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:39,915 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:39,916 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:39,916 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:39,916 DEBUG Fetching JDBC Connection from DataSource
+00:07:39,917 DEBUG JDBC driver supports batch updates
+00:07:40,559 DEBUG Returning JDBC Connection to DataSource
+00:07:40,637 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:40,651 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:40,651 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:40,651 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:40,651 DEBUG Fetching JDBC Connection from DataSource
+00:07:40,652 DEBUG JDBC driver supports batch updates
+00:07:41,344 DEBUG Returning JDBC Connection to DataSource
+00:07:41,417 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:41,442 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:41,442 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:41,442 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:41,443 DEBUG Fetching JDBC Connection from DataSource
+00:07:41,443 DEBUG JDBC driver supports batch updates
+00:07:42,144 DEBUG Returning JDBC Connection to DataSource
+00:07:42,214 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:42,230 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:42,230 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:42,230 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:42,230 DEBUG Fetching JDBC Connection from DataSource
+00:07:42,231 DEBUG JDBC driver supports batch updates
+00:07:42,877 DEBUG Returning JDBC Connection to DataSource
+00:07:42,949 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:42,965 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:42,965 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:42,966 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:42,966 DEBUG Fetching JDBC Connection from DataSource
+00:07:42,966 DEBUG JDBC driver supports batch updates
+00:07:43,626 DEBUG Returning JDBC Connection to DataSource
+00:07:43,689 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:43,705 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:43,705 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:43,705 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:43,705 DEBUG Fetching JDBC Connection from DataSource
+00:07:43,706 DEBUG JDBC driver supports batch updates
+00:07:44,346 DEBUG Returning JDBC Connection to DataSource
+00:07:44,401 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:5000
+00:07:44,414 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 5000
+00:07:44,415 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:44,415 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:44,415 DEBUG Fetching JDBC Connection from DataSource
+00:07:44,415 DEBUG JDBC driver supports batch updates
+00:07:45,063 DEBUG Returning JDBC Connection to DataSource
+00:07:45,068 INFO  Loading data to table RAW_WEEKLY_PAYLOAD_MB size:535
+00:07:45,070 DEBUG Executing statement INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?) with batch of size: 535
+00:07:45,070 DEBUG Executing SQL batch update [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:45,070 DEBUG Executing prepared SQL statement [INSERT INTO RAW_WEEKLY_PAYLOAD_MB (YEAR_WEEK, REGIONAL, SITE_NAME, SITE_ID, TECH, PAYLOAD) VALUES(?, ?, ?, ?, ?, ?)]
+00:07:45,070 DEBUG Fetching JDBC Connection from DataSource
+00:07:45,071 DEBUG JDBC driver supports batch updates
+00:07:45,142 DEBUG Returning JDBC Connection to DataSource
+00:07:45,142 INFO  Thread counter : 0
+00:07:45,142 INFO  Loading buffer....
+00:07:45,143 INFO  2 files has been processed!!
+00:07:45,143 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 15 Seconds
+15:37:43,220 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:37:43 WIB 2018]; root of context hierarchy
+15:37:43,313 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,314 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,326 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,329 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:37:43,429 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+15:37:43,433 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+15:37:43,632 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+15:37:43,637 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+15:37:43,639 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+15:37:43,786 DEBUG Loading bean definitions
+15:37:43,828 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+15:37:43,828 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+15:37:43,828 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:37:43 WIB 2018]; root of context hierarchy
+15:37:43,859 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+15:37:43,866 DEBUG Creating instance of bean 'propertyConfigurer'
+15:37:43,925 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+15:37:43,946 DEBUG Finished creating instance of bean 'propertyConfigurer'
+15:37:43,950 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+15:37:43,961 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+15:37:43,968 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+15:37:43,971 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+15:37:43,971 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+15:37:43,971 DEBUG Creating shared instance of singleton bean 'dataSource'
+15:37:43,972 DEBUG Creating instance of bean 'dataSource'
+15:37:44,597 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+15:37:44,626 DEBUG Finished creating instance of bean 'dataSource'
+15:37:44,731 INFO  Generating Schema..
+15:37:44,794 INFO  Thread counter : 1
+15:37:44,795 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xlsx
+15:37:44,799 INFO  Thread counter : 0
+15:37:44,799 INFO  1 files has been processed!!
+15:37:44,800 INFO  Finish!! elapsed:0 Days 0 Hours 0 Minutes 2 Seconds
+15:38:05,771 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:38:05 WIB 2018]; root of context hierarchy
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,849 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,870 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,874 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:38:05,955 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+15:38:05,960 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+15:38:05,995 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+15:38:06,000 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+15:38:06,002 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+15:38:06,093 DEBUG Loading bean definitions
+15:38:06,133 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+15:38:06,133 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+15:38:06,133 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:38:05 WIB 2018]; root of context hierarchy
+15:38:06,160 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+15:38:06,168 DEBUG Creating instance of bean 'propertyConfigurer'
+15:38:06,219 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+15:38:06,237 DEBUG Finished creating instance of bean 'propertyConfigurer'
+15:38:06,239 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+15:38:06,249 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+15:38:06,252 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+15:38:06,254 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+15:38:06,255 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+15:38:06,255 DEBUG Creating shared instance of singleton bean 'dataSource'
+15:38:06,255 DEBUG Creating instance of bean 'dataSource'
+15:38:06,577 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+15:38:06,609 DEBUG Finished creating instance of bean 'dataSource'
+15:38:06,654 INFO  Generating Schema..
+15:38:06,704 INFO  Thread counter : 1
+15:38:06,706 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xlsx
+15:38:06,706 INFO  found measurement mapping for Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xlsx RAW_WEEKLY_IUB_UTIL
+15:39:03,792 INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:39:03 WIB 2018]; root of context hierarchy
+15:39:03,866 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,867 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,875 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,879 DEBUG Falling back to plain synchronized [java.util.HashMap] for concurrent map
+15:39:03,958 INFO  Loading XML bean definitions from file [/Users/Fauzan/Documents/Eclipse-Workplace/work/BackEndApps/01_config/ParserConfigOracle.xml]
+15:39:03,962 DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+15:39:04,003 DEBUG Loading schema mappings from [META-INF/spring.schemas]
+15:39:04,007 DEBUG Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+15:39:04,008 DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+15:39:04,115 DEBUG Loading bean definitions
+15:39:04,152 DEBUG Loaded 2 bean definitions from location pattern [01_config/ParserConfigOracle.xml]
+15:39:04,152 INFO  Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64
+15:39:04,153 DEBUG 2 beans defined in org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3a4afd8d]; startup date [Thu Aug 30 15:39:03 WIB 2018]; root of context hierarchy
+15:39:04,176 DEBUG Creating shared instance of singleton bean 'propertyConfigurer'
+15:39:04,186 DEBUG Creating instance of bean 'propertyConfigurer'
+15:39:04,231 DEBUG Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+15:39:04,268 DEBUG Finished creating instance of bean 'propertyConfigurer'
+15:39:04,271 INFO  Loading properties file from URL [file:01_config/outputMethod/OutputMethod1.cfg]
+15:39:04,281 DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@39aeed2f]
+15:39:04,284 DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18be83e4]
+15:39:04,285 INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38082d64: defining beans [propertyConfigurer,dataSource]; root of factory hierarchy
+15:39:04,285 DEBUG Returning cached instance of singleton bean 'propertyConfigurer'
+15:39:04,285 DEBUG Creating shared instance of singleton bean 'dataSource'
+15:39:04,286 DEBUG Creating instance of bean 'dataSource'
+15:39:04,617 DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+15:39:04,647 DEBUG Finished creating instance of bean 'dataSource'
+15:39:04,692 INFO  Generating Schema..
+15:39:04,744 INFO  Thread counter : 1
+15:39:04,748 INFO  Processing 1 file(s) Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xlsx
+15:39:04,749 INFO  found measurement mapping for Weekly_Report_Iub_Utilization_2018_34_Fri-Thu.xlsx RAW_WEEKLY_IUB_UTIL
+15:40:53,397 INFO  Thread counter : 0
+15:40:53,548 INFO  1 files has been processed!!
+15:40:53,550 INFO  Finish!! elapsed:0 Days 0 Hours 1 Minutes 50 Seconds

@@ -1,0 +1,91 @@
+###########################################################
+#Praxis Cynapse Configuration
+#Version 1.1
+#Copyright 2013 @SMLTechnologies
+###########################################################
+
+CYNAPSE_ID				=TRAVERSA.R3.0
+CYNAPSE_USERNAME		=Telkomsel
+CYNAPSE_KEY				=0000-009a-fc6b-fc6b-e730
+CYNAPSE_APP_CONTEXT		=01_config/ParserConfigOracle.xml
+CYNAPSE_LOG4J_CONFIG	=01_config/log4j.properties
+
+###########################################################
+
+#MODE(Generate Schema mode, Generate=[Y], Parsing=[N]; Rewrite File Meta, Rewrite=[Y])
+GENERATE_SCHEMA_MODE	=Y
+REWRITE_METADATA_FL_MODE=N
+FILE_SCHEMA_LOC			=09_extra/
+MAX_THREAD				=2
+MAPPING_CONFIG			=01_config/traversa/TraversaInitialMapping.cfg
+
+#####################
+#Ericsson MSC
+#SOURCE_ID_1				=E_MSC
+FILE_PATTERN_1			=(.*).txt
+DATE_PATTERN_1			=yyyyMMdd
+LOCAL_DIR_1				=D:/smltech/TRAVERSA_R3/RAWS/raws_20140604/E_MSC/3
+TIME_DIFF_1				=+0
+TABLE_PREFIX_1			=C_RAW_
+CHECK_ALREADY_PROC_1	=N
+TRUNCATE_RAW_FIRST_1	=Y
+OUTPUT_CONFIG_1			=01_config/traversa/OM/OutputMethodEMSC.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_1		=N
+BACKUP_DIR_1			=08_backup
+
+#####################
+#Nokia MSC
+SOURCE_ID_2				=N_MSC
+FILE_PATTERN_2			=(.*).txt
+DATE_PATTERN_2			=yyyyMMdd
+LOCAL_DIR_2				=D:/smltech/TRAVERSA_R3/RAWS/new05/nmsc/1
+TIME_DIFF_2				=+0
+TABLE_PREFIX_2			=C_RAW_
+CHECK_ALREADY_PROC_2	=N
+TRUNCATE_RAW_FIRST_2	=Y
+OUTPUT_CONFIG_2			=01_config/traversa/OM/OutputMethodNMSC.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_2		=N
+BACKUP_DIR_2			=08_backup
+
+
+#SOURCE_ID_3				=H_HLR
+FILE_PATTERN_3			=(.*).txt
+DATE_PATTERN_3			=yyyyMMdd
+LOCAL_DIR_3				=D:/smltech/TRAVERSA_R3/RAWS/raws_20140604/H_HLR
+TIME_DIFF_3				=+0
+TABLE_PREFIX_3			=C_RAW_
+CHECK_ALREADY_PROC_3	=N
+TRUNCATE_RAW_FIRST_3	=Y
+OUTPUT_CONFIG_3			=01_config/traversa/OM/OutputMethodNMSC.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_3		=N
+BACKUP_DIR_3			=08_backup
+
+
+#SOURCE_ID_4				=S_STP
+FILE_PATTERN_4			=(.*).txt
+DATE_PATTERN_4			=yyyyMMdd
+LOCAL_DIR_4				=D:/smltech/TRAVERSA_R3/RAWS/raws_20140604/S_STP/1
+TIME_DIFF_4				=+0
+TABLE_PREFIX_4			=C_RAW_
+CHECK_ALREADY_PROC_4	=N
+TRUNCATE_RAW_FIRST_4	=Y
+OUTPUT_CONFIG_4			=01_config/traversa/OM/OutputMethodNMSC.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_4		=N
+BACKUP_DIR_4			=08_backup
+
+#SOURCE_ID_5				=S_RG
+FILE_PATTERN_5			=(.*)
+DATE_PATTERN_5			=yyyyMMdd
+LOCAL_DIR_5				=D:/smltech/TRAVERSA_R3/RAWS/raws_20140604/S_RG/1
+TIME_DIFF_5				=+0
+TABLE_PREFIX_5			=C_RAW_
+CHECK_ALREADY_PROC_5	=N
+TRUNCATE_RAW_FIRST_5	=Y
+OUTPUT_CONFIG_5			=01_config/traversa/OM/OutputMethodNMSC.cfg
+#Backup Mechanism [RM(remove),MV(move),N(none)]
+BACKUP_MECHANISM_5		=N
+BACKUP_DIR_5			=08_backup

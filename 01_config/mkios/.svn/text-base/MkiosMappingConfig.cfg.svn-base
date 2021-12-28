@@ -1,0 +1,7 @@
+#[sheet]
+[Summary][01_config/mkios/counterMap/SummaryCounterMap.cfg]
+[Voucher Sold][01_config/mkios/counterMap/VoucherCounterMap.cfg]
+[Success Rate][01_config/mkios/counterMap/SuccesRate.cfg]
+[OCS Connection][01_config/mkios/counterMap/OCSConn.cfg]
+[Uniq Subs][01_config/mkios/counterMap/UniqSubs.cfg]
+[Error Distribution][01_config/mkios/counterMap/ErrorDist.cfg]

@@ -1,0 +1,23 @@
+###########################################################
+#Praxis Cynapse Configuration
+#v1.0
+#Copyright 2012 @SMLTechnologies
+###########################################################
+PARSER_CONFIG           	=../01_config/ParserConfig.xml
+
+
+#1
+MODUL_NAME_1			=2GRERI03
+#---Get Part---
+GET_FTP_1			=Y
+FTP_HOST_1			=10.2.242.102
+FTP_PORT_1			=21
+FTP_USERNAME_1			=ftpuser
+FTP_PASSWD_1			=ftpuser
+FTP_FILEPATTERN_1		=(.*)
+FTP_DATEPATTERN_1		=(.*)
+FTP_REMOTE_DIR_1		=/var/opt/ericsson/sgw/outputfiles/asn1/iog_sts/BTBT2
+FTP_SUBREMOTE_DIR_1		=
+FTP_LOCAL_DIR_1			=../02_raw/2GRERI03
+FTP_CHECK_ALREADY_DWL_1		=Y
+OUTPUT_CONFIG_1			=../01_config/OutputMethodEri03.cfg

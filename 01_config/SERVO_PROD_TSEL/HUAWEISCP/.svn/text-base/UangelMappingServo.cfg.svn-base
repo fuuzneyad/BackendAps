@@ -1,0 +1,20 @@
+#file mapping Huawei PM 3G
+#format [measurement type][tableName][field Mapping]
+#bila [field Mapping] tidak diisi, maka field akan default sesuai apa adanya
+
+[default_mapping_field][][]
+
+#Tablenames are defined from filename
+#Here we go..
+[AC_ACR_COUNT(.*)][AC_ACR_COUNT][]
+[BFT(.*)][BFT][]
+[CAPS(.*)][CAPS][]
+[CPU(.*)][CPU][]
+[ERB(.*)][ERB][]
+[IBCA(.*)][IBCA][]
+[MEMORY(.*)][MEMORY][]
+[ROIF_RESULT(.*)][ROIF_RESULT][]
+[SMS(.*)][SMS][]
+[UCB(.*)][UCB][]
+[USSD(.*)][USSD][]
+[VOICE(.*)][VOICE][]

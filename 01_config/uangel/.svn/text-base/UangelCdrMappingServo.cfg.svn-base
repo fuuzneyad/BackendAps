@@ -1,0 +1,13 @@
+
+#Tablenames are defined from filename
+#Here we go..
+[(.*)rec(.*)][VOICE_REC][]
+[(.*)res(.*)][VOICE_RES][]
+[(.*)ref(.*)][VOICE_REF][]
+[(.*)reo(.*)][VOICE_REO][]
+[(.*)udr(.*)][USSD_UDR][]
+[(.*)udo(.*)][USSD_UDO][]
+[(.*)sms(.*)][SMS_SMS][]
+[(.*)smf(.*)][USSD_SMF][]
+[(.*)smo(.*)][USSD_SMO][]
+[(.*)smr(.*)][USSD_SMR][]

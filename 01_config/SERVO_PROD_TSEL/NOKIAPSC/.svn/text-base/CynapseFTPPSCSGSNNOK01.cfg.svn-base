@@ -1,0 +1,23 @@
+###########################################################
+#Praxis Cynapse Configuration
+#v1.0
+#Copyright 2012 @SMLTechnologies
+###########################################################
+PARSER_CONFIG           	=../01_config/ParserConfig.xml
+
+
+#1
+MODUL_NAME_1			=PSCNOK01
+#---Get Part---
+GET_FTP_1			=Y
+FTP_HOST_1			=10.251.76.171
+FTP_PORT_1			=21
+FTP_USERNAME_1			=servopms
+FTP_PASSWD_1			=Tsel2013
+FTP_FILEPATTERN_1		=SGSN(.*)
+FTP_DATEPATTERN_1		=(.*)
+FTP_REMOTE_DIR_1		=/d/corenb/bsspmm/client
+FTP_SUBREMOTE_DIR_1		=
+FTP_LOCAL_DIR_1			=../02_raw/PSCNOKSGSN01
+FTP_CHECK_ALREADY_DWL_1		=Y
+OUTPUT_CONFIG_1			=../01_config/OutputMethod1.cfg

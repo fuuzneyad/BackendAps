@@ -1,0 +1,26 @@
+#file mapping Huawei PM 3G
+#format [measurement type][tableName][field Mapping]
+#bila [field Mapping] tidak diisi, maka field akan default sesuai apa adanya
+#example [DownlinkBaseBandPool][DOWNLINKBASEBANDPOOL][01_config/EricssonCounterMap3G/AllMap.cfg]
+
+[default_mapping_field][][01_config/ericsson/AllMapPSCEricssonSgsn_WithTName_FIX.cfg]
+
+
+#Tablenames are defined from filename
+#Here we go..
+[(.*)Meas_bssgp_all(.*)][MEAS_BSSGP_ALL_09A][]
+[(.*)Meas_Fr_PVC_all(.*)][MEAS_FR_PVC_ALL_09A][]
+[(.*)Meas_GSN_all(.*)][MEAS_GSN_ALL_09A][]
+[(.*)Meas_GTP(.*)][MEAS_GTP_09A][]
+[(.*)Meas_IP_Filter_if_all(.*)][MEAS_IP_FILTER_IF_ALL_09A][]
+[(.*)Meas_IP_if_all(.*)][MEAS_IP_IF_ALL_09A][]
+[(.*)Meas_ISYSC(.*)][MEAS_ISYSC_09A][]
+[(.*)Meas_mm(.*)][MEAS_MM_09A][]
+[(.*)Meas_MM_RA_all(.*)][MEAS_MM_RA_ALL_09A][]
+[(.*)Meas_Overload(.*)][MEAS_OVERLOAD_09A][]
+[(.*)Meas_pm(.*)][MEAS_PM_09A][]
+[(.*)Meas_QoS(.*)][MEAS_QOS_09A][]
+[(.*)Meas_Security(.*)][MEAS_SECURITY_09A][]
+[(.*)Meas_SM(.*)][MEAS_SM_09A][]
+[(.*)Meas_SNDCP(.*)][MEAS_SNDCP_09A][]
+[(.*)Meas_SYS_all(.*)][MEAS_SYS_ALL_09A][]

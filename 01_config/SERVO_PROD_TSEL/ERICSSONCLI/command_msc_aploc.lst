@@ -1,0 +1,8 @@
+msdls -m CHS -s cp0ex
+dir Y:
+dir Y:\ACS\data\RTR
+dir Y:\ACS\data\RTR\TECWMDSVR1\Ready
+dir Y:\ACS\data\RTR\CHS_CP0EX\DATAFILES\REPORTED
+dir K:\ACS\data\RTR
+dir K:\ACS\data\RTR\TECWMDSVR1\Ready
+dir K:\ACS\data\RTR\REPORTED\RTRFILES

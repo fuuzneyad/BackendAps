@@ -1,0 +1,1 @@
+Copy file config and bin from Configuration Management/CM Stylo..

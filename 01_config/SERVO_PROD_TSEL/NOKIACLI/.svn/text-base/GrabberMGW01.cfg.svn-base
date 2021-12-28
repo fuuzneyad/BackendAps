@@ -1,0 +1,35 @@
+#Nokia MSS Grabber configuration file
+SourceId=CLINOK01
+Log4JConfig=../01_config/log4j.properties
+OutputMethod=../01_config/outputMethod1.cfg
+
+# Database Configuration
+DB_Host = localhost
+DB_Username = root
+DB_Password = suren13
+DB_Port = 3306
+DB_Name = traversa2_ph5
+
+#SSH Configuration.. Tsel2013
+Protocol = SSH
+Ssh_Username = servopms
+Ssh_Host = 10.2.124.129
+Ssh_Password = Tsel2013
+Ssh_Port = 22
+
+#Stored Data configuration
+LogFolder = ../02_raw/CSCNOK01
+LogFileName = MGW
+LogDateFormat = yyyyMMddHHmmss
+
+#Command & Node List File
+CommandList             = ../01_config/commandMGw.lst
+NeList = ../01_config/ne_nmgw_DapotMei2013_EAST.lst
+
+#MultiThreading
+MultiThreading = yes
+MaxThread = 5
+
+#Automatic Re-Login when connection closed [yes/no]
+Auto_Login = no
+Login_Attempt = 1
