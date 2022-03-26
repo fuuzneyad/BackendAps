@@ -20,15 +20,15 @@ import id.co.telkom.parser.common.loader.LoaderHandlerManager;
 import id.co.telkom.parser.common.model.Context;
 import id.co.telkom.parser.common.propreader.ParserPropReader;
 
-public class TelkomHaudCDRv1  extends AbstractParser {
+public class TelkomHaudCDRv1b  extends AbstractParser {
 
-	private static final Logger logger = Logger.getLogger(TelkomHaudCDRv1.class);
+	private static final Logger logger = Logger.getLogger(TelkomHaudCDRv1b.class);
 	private Map<String,String> header = new LinkedHashMap <String,String>();
 	Map<String, Object> map = new LinkedHashMap<String, Object>();
 	Map<String, Object> tmp = new LinkedHashMap<String, Object>();
 	private DRModelMap modelMap ;
 	
-	public TelkomHaudCDRv1(ParserPropReader cynapseProp, AbstractInitiator parserInit) {
+	public TelkomHaudCDRv1b(ParserPropReader cynapseProp, AbstractInitiator parserInit) {
 		super(cynapseProp, parserInit);
 		this.modelMap = (DRModelMap)parserInit.getMappingModel();
 	}
@@ -240,12 +240,37 @@ public class TelkomHaudCDRv1  extends AbstractParser {
 		}catch(ParseException e){return null;}
 	}
 	
-	private boolean isSelisihKurangDrSehari(String val) {// TODO: check utc+7 
+	private static boolean isSelisihKurangDrSehari(String val) {// TODO: check utc+7 
 		SimpleDateFormat myFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S+00");
 		 try {
 			Date d = myFormat.parse(val);
+			//get last day of date
+			Calendar c = Calendar.getInstance();
+			c.setTime(d);
+			//TODO check this: tambah 7 jam
+			c.add(Calendar.HOUR_OF_DAY, 7);
+//			System.out.println(c);
+			int tanggal = c.get(Calendar.DATE);
+			c.set(Calendar.DAY_OF_MONTH, c.getActualMaximum(Calendar.DAY_OF_MONTH));
+			int tanggalMaksimum = c.get(Calendar.DATE);
+			
 			long sehari = 24*60*60*1000;
+//			long jam6pagi = 6*60*60*1000;
 			long sekarang = System.currentTimeMillis();
+			
+			
+			Date date = new Date(); 
+			Calendar c2 = Calendar.getInstance();
+			c2.setTime(date);
+			int tanggalhariini =c2.get(Calendar.DATE);
+			int jamhariini =c2.get(Calendar.HOUR_OF_DAY);
+//			System.out.println(tanggalhariini +" "+jamhariini);
+			
+			//TODO: check this, Request om Welly khusus akhir bulan tunggu DR sampai jam 6 saja
+//			if(tanggal==tanggalMaksimum && sekarang-d.getTime()<jam6pagi)//or && jam sekarang
+			if(tanggal==tanggalMaksimum && (tanggalhariini==1 && jamhariini<6))
+				return true; 
+			else
 			if(sekarang-d.getTime()<sehari)
 				return true;
 			return false;
@@ -254,43 +279,9 @@ public class TelkomHaudCDRv1  extends AbstractParser {
 		}
 	}
 	
+	
 //	public static void main(String[] args) {
-//		System.out.println("coba...	");
-////		File file = new File ("/Users/Fauzan/Downloads/txt_files/test.csv");
-//		File file = new File ("/Users/Fauzan/Downloads/txt_files/rep_rep_rep_rep_rep_cdrs-main-210804-020000-025959-p-001-r-0753416.csv");
-//		FileReader fr;
-//		Map<String, Object> map = new LinkedHashMap<String, Object>();
-//		Map<String, String> header = new LinkedHashMap<String, String>();
-//		try {
-//			fr = new FileReader(file.getAbsolutePath());
-//		
-//		CSVReader reader = new CSVReader(fr, ',' ,'"','\n');//yey berhasil
-//		int line =0;
-//		String[] splitted;
-//			while ((splitted = reader.readNext()) != null) {
-//				line++;
-//				for (int i=0;i<splitted.length;i++) {
-//					if(line==1)
-//						header.put("H"+i,splitted[i]);
-//					else {
-//						map.put(header.get("H"+i),splitted[i]);
-//					}
-//					
-//				}
-//				
-//				System.out.println("line "+line+map);
-//				if(line==30)
-//					break;
-//				map = new LinkedHashMap<String, Object>();
-//			}
-//		reader.close();	
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+//		System.out.println(isSelisihKurangDrSehari("2022-03-26 11:00:00.065+00"));
 //	}
 	
 }

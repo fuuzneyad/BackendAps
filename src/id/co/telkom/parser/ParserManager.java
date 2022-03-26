@@ -518,6 +518,10 @@ public class ParserManager {
 				Class.forName("id.co.telkom.parser.entity.pm.telkom.TelkomHaudCDRv1"),
 				Class.forName("id.co.telkom.parser.entity.pm.telkom.TelkomHaudInitiatiorV1"),
 				"HaudCDRV1"));
+		mapParser.put("HaudCDRV1.b", new ParserObject(
+				Class.forName("id.co.telkom.parser.entity.pm.telkom.TelkomHaudCDRv1b"),
+				Class.forName("id.co.telkom.parser.entity.pm.telkom.TelkomHaudInitiatiorV1"),
+				"HaudCDRV1.b"));
 		
 		mapParser.put("HaudCDRV2", new ParserObject(
 				Class.forName("id.co.telkom.parser.entity.pm.telkom.TelkomHaudCDRv1"),
