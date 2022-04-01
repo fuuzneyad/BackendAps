@@ -255,7 +255,7 @@ public class TelkomHaudCDRv1b  extends AbstractParser {
 			int tanggalMaksimum = c.get(Calendar.DATE);
 			
 			long sehari = 24*60*60*1000;
-//			long jam6pagi = 6*60*60*1000;
+//			long jam6pagi = 5*60*60*1000;
 			long sekarang = System.currentTimeMillis();
 			
 			
@@ -268,10 +268,10 @@ public class TelkomHaudCDRv1b  extends AbstractParser {
 			
 			//TODO: check this, Request om Welly khusus akhir bulan tunggu DR sampai jam 6 saja
 //			if(tanggal==tanggalMaksimum && sekarang-d.getTime()<jam6pagi)//or && jam sekarang
-			if(tanggal==tanggalMaksimum && (tanggalhariini==1 && jamhariini<6))
+			if(tanggal==tanggalMaksimum && (tanggalhariini==1 && jamhariini<5))
 				return true; 
 			else
-			if(sekarang-d.getTime()<sehari)
+			if(tanggal!=tanggalMaksimum && sekarang-d.getTime()<sehari)
 				return true;
 			return false;
 		} catch (ParseException e) {
